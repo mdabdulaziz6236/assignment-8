@@ -5,8 +5,9 @@ import logoImg from '../assets/logo.png';
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm">
-      <div className="navbar-start">
+    <div className=" shadow-sm">
+      <div className="w-11/12 mx-auto navbar bg-base-100">
+        <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -73,6 +74,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <Link to='https://github.com/mdabdulaziz6236' className="hover:bg-[#632EE3] hover:text-white btn font-semibold lg:text-xl"><FaGithub /> Contribute</Link>
+      </div>
       </div>
     </div>
   );
