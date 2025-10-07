@@ -23,7 +23,7 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/installations",
+        path: "/installation",
         element: <Installation></Installation>,
       },
       {
