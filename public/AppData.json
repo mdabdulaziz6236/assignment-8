@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=PhotoSnap&size=256",
+    "title": "PhotoSnap",
+    "companyName": "Pixel Labs",
+    "id": 1,
+    "description": "PhotoSnap is an all-in-one photo editing and camera app with filters, retouch tools, and collage maker.",
+    "size": 48,
+    "reviews": 1234,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 560 },
+      { "name": "5 star", "count": 339 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=TaskMaster&size=256",
+    "title": "TaskMaster",
+    "companyName": "WorkFlow Inc.",
+    "id": 2,
+    "description": "TaskMaster helps you manage tasks, reminders, and productivity goals with collaboration tools.",
+    "size": 35,
+    "reviews": 892,
+    "ratingAvg": 4.2,
+    "downloads": "3.5M",
+    "ratings": [
+      { "name": "1 star", "count": 33 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 145 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 339 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=FitZone&size=256",
+    "title": "FitZone",
+    "companyName": "ActiveBody Ltd.",
+    "id": 3,
+    "description": "FitZone is a virtual fitness coach with custom workouts, nutrition plans, and progress tracking.",
+    "size": 72,
+    "reviews": 2560,
+    "ratingAvg": 4.7,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 720 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=ShopSmart&size=256",
+    "title": "ShopSmart",
+    "companyName": "Ecomify",
+    "id": 4,
+    "description": "ShopSmart compares prices, applies coupons, and helps you save money while shopping online.",
+    "size": 58,
+    "reviews": 1780,
+    "ratingAvg": 4.3,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 620 },
+      { "name": "5 star", "count": 680 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=MusicWave&size=256",
+    "title": "MusicWave",
+    "companyName": "Soundly Studio",
+    "id": 5,
+    "description": "MusicWave lets you stream songs, create playlists, and enjoy high-quality music offline.",
+    "size": 90,
+    "reviews": 4030,
+    "ratingAvg": 4.8,
+    "downloads": "25M",
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2640 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=NoteX&size=256",
+    "title": "NoteX",
+    "companyName": "WriteEase",
+    "id": 6,
+    "description": "NoteX is a clean, cloud-synced note app with markdown, folders, and voice notes.",
+    "size": 22,
+    "reviews": 630,
+    "ratingAvg": 4.1,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 260 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=EduLearn&size=256",
+    "title": "EduLearn",
+    "companyName": "SmartEdu",
+    "id": 7,
+    "description": "EduLearn offers courses, quizzes, and adaptive lessons for students and professionals.",
+    "size": 64,
+    "reviews": 1290,
+    "ratingAvg": 4.4,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 570 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=TravelGo&size=256",
+    "title": "TravelGo",
+    "companyName": "JourneyTech",
+    "id": 8,
+    "description": "TravelGo finds flights, hotels, and trip packages with maps and travel guides.",
+    "size": 85,
+    "reviews": 2140,
+    "ratingAvg": 4.6,
+    "downloads": "13M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 640 },
+      { "name": "5 star", "count": 1070 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=FinancePro&size=256",
+    "title": "FinancePro",
+    "companyName": "FinSoft",
+    "id": 9,
+    "description": "FinancePro helps you track expenses, budgets, and investments securely.",
+    "size": 50,
+    "reviews": 910,
+    "ratingAvg": 4.3,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=GameBoost&size=256",
+    "title": "GameBoost",
+    "companyName": "PlayHub",
+    "id": 10,
+    "description": "GameBoost optimizes device performance for smoother gaming and higher FPS.",
+    "size": 45,
+    "reviews": 1850,
+    "ratingAvg": 4.5,
+    "downloads": "9.5M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 530 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=BookVerse&size=256",
+    "title": "BookVerse",
+    "companyName": "LitWorld",
+    "id": 11,
+    "description": "BookVerse gives access to eBooks and audiobooks with bookmarks and sync.",
+    "size": 68,
+    "reviews": 970,
+    "ratingAvg": 4.2,
+    "downloads": "4.1M",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 365 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=MindCalm&size=256",
+    "title": "MindCalm",
+    "companyName": "PeaceMind Studio",
+    "id": 12,
+    "description": "MindCalm offers meditation, sleep stories, breathing exercises, and mood tracking.",
+    "size": 55,
+    "reviews": 2200,
+    "ratingAvg": 4.7,
+    "downloads": "14M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 1230 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=LangPro&size=256",
+    "title": "LangPro",
+    "companyName": "EduTech Global",
+    "id": 13,
+    "description": "LangPro helps you learn languages with AI tutors, voice chat, and games.",
+    "size": 80,
+    "reviews": 2500,
+    "ratingAvg": 4.8,
+    "downloads": "20M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 620 },
+      { "name": "5 star", "count": 1510 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=WeatherNow&size=256",
+    "title": "WeatherNow",
+    "companyName": "SkyData",
+    "id": 14,
+    "description": "WeatherNow gives forecasts, alerts, radar maps, and air quality updates.",
+    "size": 40,
+    "reviews": 760,
+    "ratingAvg": 4.3,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 270 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=DailyQuote&size=256",
+    "title": "DailyQuote",
+    "companyName": "InspireMe",
+    "id": 15,
+    "description": "DailyQuote sends motivational quotes daily with beautiful themes.",
+    "size": 18,
+    "reviews": 450,
+    "ratingAvg": 4.5,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 205 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=NewsFlash&size=256",
+    "title": "NewsFlash",
+    "companyName": "MediaWorks",
+    "id": 16,
+    "description": "NewsFlash keeps you updated with trending topics and live coverage.",
+    "size": 60,
+    "reviews": 1000,
+    "ratingAvg": 4.1,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 330 },
+      { "name": "5 star", "count": 330 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=CookEasy&size=256",
+    "title": "CookEasy",
+    "companyName": "HomeChef",
+    "id": 17,
+    "description": "CookEasy gives you recipes, video tutorials, and voice-guided cooking steps.",
+    "size": 78,
+    "reviews": 1570,
+    "ratingAvg": 4.6,
+    "downloads": "8.5M",
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 735 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=SecureVault&size=256",
+    "title": "SecureVault",
+    "companyName": "CyberSafe",
+    "id": 18,
+    "description": "SecureVault stores your passwords and files with strong encryption.",
+    "size": 42,
+    "reviews": 870,
+    "ratingAvg": 4.4,
+    "downloads": "3.7M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 270 },
+      { "name": "5 star", "count": 370 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=Artify&size=256",
+    "title": "Artify",
+    "companyName": "CreativeWorld",
+    "id": 19,
+    "description": "Artify is a digital art studio for drawing, painting, and sharing artwork.",
+    "size": 95,
+    "reviews": 3200,
+    "ratingAvg": 4.8,
+    "downloads": "22M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 690 },
+      { "name": "5 star", "count": 2040 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/9.x/initials/png?seed=HealthTrack&size=256",
+    "title": "HealthTrack",
+    "companyName": "LifeMetrics",
+    "id": 20,
+    "description": "HealthTrack monitors your health stats, calories, and fitness goals.",
+    "size": 70,
+    "reviews": 1880,
+    "ratingAvg": 4.6,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 955 }
+    ]
+  }
+]

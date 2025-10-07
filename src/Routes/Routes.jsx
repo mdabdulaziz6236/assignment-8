@@ -12,15 +12,17 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
-    errorElement:<ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage></ErrorPage>,
+    hydrateFallbackElement:<p>Loading.....</p>,
     children: [
-      {
-        path: "/apps",
-        element: <Apps></Apps>,
-      },
       {
         index: true,
         element: <Home></Home>,
+        // loader: () => fetch("./AppData.json"),
+      },
+      {
+        path: "/apps",
+        element: <Apps></Apps>,
       },
       {
         path: "/installation",
@@ -32,14 +34,14 @@ const router = createBrowserRouter([
       },
       {
         path: "/appErrorPage",
-        Component: AppErrorPage ,
+        Component: AppErrorPage,
       },
     ],
-  }
-//   {
-//      path: "*",
-//         element: <ErrorPage></ErrorPage>,
-//   }
+  },
+  //   {
+  //      path: "*",
+  //         element: <ErrorPage></ErrorPage>,
+  //   }
 ]);
 
 export default router;
