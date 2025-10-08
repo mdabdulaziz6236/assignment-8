@@ -5,9 +5,10 @@ import { IoSearchSharp } from "react-icons/io5";
 
 const Apps = () => {
   const { apps } = useApps();
+  // console.log(apps)
   const [search, setSearch] = useState('')
   const term = search.trim().toLocaleLowerCase()
-const searchedApps = term? apps.filter(app => app.title.toLocaleLowerCase().includes(search)):apps
+const searchedApps = term? apps.filter(app => app.title.toLocaleLowerCase().includes(search)): apps
 //   console.log(searchedApps)
   return (
     <div>
