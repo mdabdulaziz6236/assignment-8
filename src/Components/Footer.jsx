@@ -6,7 +6,7 @@ import { FaFacebook, FaFacebookSquare, FaInstagramSquare } from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <footer className=" bg-black pt-20 ">
+    <footer className=" bg-black pt-5 ">
      <div className="w-11/12 mx-auto">
          <div className="flex justify-between">
         <div className="flex items-center">
@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t-1 border-gray-500 mt-5">
-        <p className="text-center text-white py-20">Copyright © 2025 - All right reserved</p>
+        <p className="text-center text-white py-5">Copyright © 2025 - All right reserved</p>
       </div>
       
      </div>

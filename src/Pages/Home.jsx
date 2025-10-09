@@ -2,15 +2,23 @@
 import { Link} from "react-router";
 import AppCard from "../Components/AppCard";
 import useApps from "../hooks/useApps";
+import LoadingPage from "./LoadingPage";
+import Banner from "../Components/Banner";
 
 const Home = () => {
-    const {apps, loading, error} = useApps()
-    console.log(apps, loading, error)
+    const {apps, loading} = useApps()
   
+  
+  if (loading ) {
+    // return <GridLoader />
+    return <LoadingPage></LoadingPage>
+  }
+
   const slicedApp = apps.slice(0,8)
 
   return (
     <div className="">
+      <Banner></Banner>
       <div className="text-center">
         <h1 className="font-bold my-5 text-3xl lg:text-[48px]">Trending Apps</h1>
         <p className="font-medium  pb-3 lg:text-xl text-gray-500">

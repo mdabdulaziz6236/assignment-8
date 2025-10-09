@@ -1,13 +1,19 @@
 import React, { useEffect, useState } from "react";
 import dImg from "../assets/icon-downloads.png";
 import rImg from "../assets/icon-ratings.png";
+import LoadingPage from "./LoadingPage";
+import { toast, ToastContainer, Bounce } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Installation = () => {
   const [installed, setInstalled] = useState([]);
   const [sortOrder, setSortOrder] = useState("none");
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     const savedList = JSON.parse(localStorage.getItem("Installed"));
-    if (savedList) setInstalled(savedList);
+    if (savedList) setInstalled(savedList || []);
+    setTimeout(() => setLoading(false), 300);
   }, []);
 
   const sortedItem = (() => {
@@ -25,10 +31,24 @@ const Installation = () => {
     let updatedList = existingList.filter((p) => p.id !== id);
     setInstalled(updatedList);
     localStorage.setItem("Installed", JSON.stringify(updatedList));
+    toast.success("App Uninstalled!", {
+      position: "top-center",
+      autoClose: 1500,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+      transition: Bounce,
+    });
   };
+
+  if (loading) return <LoadingPage></LoadingPage>;
 
   return (
     <div className="lg:p-20 p-3">
+      <ToastContainer /> {/* <-- Added ToastContainer */}
       <div>
         <h1 className="font-bold text-center text-2xl lg:text-5xl mb-4">
           Your Installed Apps

@@ -2,14 +2,19 @@ import React, { useState } from "react";
 import useApps from "../hooks/useApps";
 import AppCard from "../Components/AppCard";
 import { IoSearchSharp } from "react-icons/io5";
+import LoadingPage from "./LoadingPage";
 
 const Apps = () => {
-  const { apps } = useApps();
-  // console.log(apps)
+  const { apps,loading } = useApps();
   const [search, setSearch] = useState('')
+  if (loading ) {
+    // return <GridLoader />
+    return <LoadingPage></LoadingPage>
+  }
+  
   const term = search.trim().toLocaleLowerCase()
 const searchedApps = term? apps.filter(app => app.title.toLocaleLowerCase().includes(search)): apps
-//   console.log(searchedApps)
+
   return (
     <div>
       <div className="flex flex-col justify-center items-center py-10">
@@ -29,9 +34,11 @@ const searchedApps = term? apps.filter(app => app.title.toLocaleLowerCase().incl
         </label>
       </div>
       <div className="gap-5 py-5 lg:py-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-        {searchedApps.map((app) => (
+        {searchedApps.length > 0 ? (searchedApps.map((app) => (
           <AppCard app={app} key={app.id}></AppCard>
-        ))}
+        ))):(<h2 className="col-span-full text-center text-5xl py-20 text-red-500 font-bold">
+            No App Found
+          </h2>)}
       </div>
     </div>
   );
