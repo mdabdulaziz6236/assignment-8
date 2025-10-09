@@ -9,8 +9,8 @@ const Banner = () => {
     <div>
       <div>
         <div className="text-center pt-10 lg:pt-20">
-          <h1 className="font-extrabold text-6xl">We Build</h1>
-          <h1 className="mt-5 font-extrabold text-6xl">
+          <h1 className="font-extrabold text-3xl md:text-4xl lg:text-6xl">We Build</h1>
+          <h1 className="mt-3 lg:mt-5 font-extrabold text-3xl md:text-4xl lg:text-6xl">
             <span className="text-[#9F62F2]">Productive</span> Apps
           </h1>
           <p className="text-gray-500 font-medium mt-4">

@@ -25,13 +25,15 @@ const Home = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="gap-5 py-5 lg:py-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+      <div className="gap-5 w-11/12 mx-auto py-5 lg:py-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
         {slicedApp.map((app) => (
           <AppCard app={app} key={app.id}></AppCard>
         ))}
       </div>
       <div className="flex justify-center items-center pb-20 ">
-        <Link to='/apps'><button className="text-white rounded-[8px] bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-xl font-semibold hover:bg-pink-500 hover:text-white px-3 py-2">Show All</button></Link>
+        <Link to='/apps'><button className="text-white rounded-[8px] bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-xl font-semibold hover:from-pink-500 hover:to-pink-400 px-3 py-1.5 transition-colors duration-300">
+  Show All
+</button></Link>
       </div>
     </div>
   );

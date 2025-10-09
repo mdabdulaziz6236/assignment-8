@@ -65,7 +65,7 @@ const Installation = () => {
           <h1 className="font-bold lg:text-2xl">
             ({sortedItem.length}) Apps Found
           </h1>
-          <label className="form-control w-full max-w-xs" htmlFor="">
+          <label className="form-control w-40 mt-5 lg:w-full max-w-xs" htmlFor="">
             <select
               className="select select-bordered"
               value={sortOrder}
@@ -88,7 +88,7 @@ const Installation = () => {
                   <img className="w-10 lg:w-20 lg:h-20" src={p.image} alt="" />
                 </div>
                 <div className="lg:ml-5 ml-1">
-                  <h1>{p.title}</h1>
+                  <h1 className="lg:text-xl md:text-xl text-[12px]  ">{p.title}</h1>
                   <div className="flex items-center space-x-4 pt-0.5 lg:pt-4">
                     <div className="flex items-center">
                       <img
