@@ -13,7 +13,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1A1A2E] pt-10">
+    <footer className="bg-[#1A1A2E] pt-8 lg:pt-10">
       <div className="w-11/12 mx-auto">
         {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-0">
@@ -45,13 +45,13 @@ const Footer = () => {
                 <Link to="/apps">Apps</Link>
               </li>
               <li className="mb-2 hover:text-purple-400">
-                <Link to="/about">About Us</Link>
+                <Link to="/installation">Installation</Link>
               </li>
               <li className="mb-2 hover:text-purple-400">
-                <Link to="/contact">Contact</Link>
+                <Link >Contact</Link>
               </li>
               <li className="mb-2 hover:text-purple-400">
-                <Link to="/privacy">Privacy Policy</Link>
+                <Link >Privacy Policy</Link>
               </li>
             </ul>
           </div>
@@ -82,7 +82,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="p-2 rounded-l-md text-white w-full"
+                className="p-2 rounded-l-md bg-gray-300 text-black w-full"
               />
               <button className="bg-purple-600 hover:bg-purple-800 p-2 rounded-r-md font-semibold">
                 Subscribe
@@ -110,7 +110,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-gray-500 mt-8">
+        <div className="border-t border-gray-500 ">
           <p className="text-center text-white py-5 text-sm md:text-base">
             Copyright © 2025 - All rights reserved | Designed by MyAppStore
           </p>

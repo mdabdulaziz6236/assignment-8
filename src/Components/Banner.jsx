@@ -9,7 +9,9 @@ const Banner = () => {
     <div>
       <div>
         <div className="text-center pt-10 lg:pt-20">
-          <h1 className="font-extrabold text-3xl md:text-4xl lg:text-6xl">We Build</h1>
+          <h1 className="font-extrabold text-3xl md:text-4xl lg:text-6xl">
+            We Build
+          </h1>
           <h1 className="mt-3 lg:mt-5 font-extrabold text-3xl md:text-4xl lg:text-6xl">
             <span className="text-[#9F62F2]">Productive</span> Apps
           </h1>
@@ -25,12 +27,13 @@ const Banner = () => {
         </div>
         <div className="flex justify-center items-center py-5 lg:py-10 space-x-4">
           <Link to="https://play.google.com/store/apps">
-            <button className="btn hover:bg-[#632EE3] hover:text-white ">
-              <img className="w-5 rounded" src={playStoreImg} alt="" /> Google Play
+            <button className="btn btn-primary hover:bg-[#9F62F2] hover:text-white ">
+              <img className="w-5 rounded" src={playStoreImg} alt="" /> Google
+              Play
             </button>
           </Link>
           <Link to="https://apps.apple.com">
-            <button className="btn hover:bg-[#632EE3] hover:text-white ">
+            <button className="btn btn-primary hover:bg-[#9F62F2] hover:text-white ">
               <img className="w-5 rounded" src={appStoreImg} alt="" /> App Store
             </button>
           </Link>
@@ -39,14 +42,14 @@ const Banner = () => {
           <img src={heroImg} alt="" />
         </div>
       </div>
-      <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-gradient-to-br from-[#632EE3] to-[#9F62F2] py-10 lg:py-20 flex flex-col justify-center items-center text-white text-center px-4">
+      <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-indigo-500 to-90% py-10 lg:py-20 flex flex-col justify-center items-center text-white text-center px-4">
         <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug">
           Trusted by Millions, Built for You
         </h1>
         {/* Count section of App */}
         <div className="flex flex-col sm:flex-row sm:space-x-10 space-y-8 sm:space-y-0 pt-10">
           {/* 1️ Total Downloads */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center text-green-500">
             <p className="text-sm sm:text-base">Total Downloads</p>
             <p className="font-extrabold py-3 text-4xl sm:text-5xl md:text-6xl">
               <span>52M</span>
@@ -57,7 +60,7 @@ const Banner = () => {
           </div>
 
           {/* 2️ Total Reviews */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center text-white">
             <p className="text-sm sm:text-base">Total Reviews</p>
             <p className="font-extrabold py-3 text-4xl sm:text-5xl md:text-6xl">
               <span>906K</span>
@@ -68,7 +71,7 @@ const Banner = () => {
           </div>
 
           {/* 3️ Active Apps */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center text-[#de0f99]">
             <p className="text-sm sm:text-base">Active Apps</p>
             <p className="font-extrabold py-3 text-4xl sm:text-5xl md:text-6xl">
               <span>20+</span>

@@ -30,7 +30,7 @@ const Home = () => {
           <AppCard app={app} key={app.id}></AppCard>
         ))}
       </div>
-      <div className="flex justify-center items-center pb-20 ">
+      <div className="flex justify-center items-center pb-5 lg:pb-20 ">
         <Link to='/apps'><button className="text-white rounded-[8px] bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-xl font-semibold hover:from-pink-500 hover:to-pink-400 px-3 py-1.5 transition-colors duration-300">
   Show All
 </button></Link>
