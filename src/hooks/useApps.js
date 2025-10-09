@@ -14,13 +14,13 @@ const useApps = () => {
         setTimeout(() => {
           setApps(res.data);
           setLoading(false);
-        }, 800);
+        }, 500);
       })
       .catch(err => {
         setTimeout(() => {
           setError(err);
           setLoading(false);
-        }, 800);
+        }, 500);
       });
   }, []);
 
